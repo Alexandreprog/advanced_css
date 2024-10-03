@@ -1,0 +1,23 @@
+/*Herança e especificidade*/
+
+
+/*Seletores mais específicos têm precedência em relação
+a regras mais gerais*/
+
+* {
+    color: red;
+}
+
+h2{/*3*/
+    color: blue;
+}
+
+h2.verde{/*2*/
+    color: green;
+}
+
+h2#amarelo{/*1*/
+    color: yellow;
+}
+/*Id's são mais específicos que classes e classes são mais
+específicas que regras gerais*/
