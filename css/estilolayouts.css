@@ -12,11 +12,17 @@ body{
 }
 
 #marca{
-    height: 100px;
-    background: #9E9E9E;
+    width: 100%;
+    height: 200px;
+    background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
     text-align: center;
-    line-height: 100px;
+    line-height: 200px;
 }
+
+/*#imagem{
+    width: 90%;
+    overflow: hidden;
+}*/
 
 #conteudo{
     width: 75%;/*520px -> 74.28*/
@@ -34,6 +40,11 @@ body{
 #conteudo-principal{
     width: 64%;/*320px -> 64*/
     float: left;
+}
+
+img.img-noticia {
+    width: 94%;
+    padding: 2%;
 }
 
 #conteudo-secundario{
